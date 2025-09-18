@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+:root {
+    --primaryColor: #be9c79;
+    --secondaryColor: #666666;
+    --tertiaryColor: #333333;
+    --darkColor: #000000;
+    --lightColor: #ffffff;
+    --regularFont: 1.6rem;
+    --headingFont: 2.5rem;
+    --ffPrimary: "Nunito Sans", sans-serif;
+  
+    --ffSecondary: "Merienda", cursive;
+    
+     
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: var(--ffPrimary);
+    color: var(--darkColor);
+    font-size: var(--regularFont);
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-optical-sizing: auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+  text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+  font-family: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* :::PARENT CONTAINER Code Starts here::: */
+
+header {
+  /* background-color: #13c6bd; */
+  width: 100%; /* Full Screensize */
+  height: auto; /* content Height */
+}
+
+main {
+  /* background-color: #ffbf00; */
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  /* background-color: #89f357; */
+  width: 100%;
+  height: auto;
+}
+button {
+  background-color: var(--primaryColor);  
+  font-family: var(--ffPrimary);
+color: var(--lightColor);
+  font-size: 2.3rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0.1rem;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 3rem;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: var(--darkColor);
+  color: var(--lightColor);
+  transition: background-color 0.2s ease;
+}
+/* :::PARENT CONTAINER Code Ends here::: */
+
+
+/* :::HEADER Code Starts hereE::: */
+/* Navbar code */
+/* Navbar code */
+
+/* Hero Section code */
+/* Hero Section code */
+/* :::HEADER Code Ends here::: */
+
+/* :::MAIN Code Starts here::: */
+/* Our Menu code */
+.menu {
+    /* background-color:aqua; */
+    padding: 3rem 0rem;
+}
+
+/* Step3: componentContainer */
+.menuContainer {
+    /* background-color: rgb(23, 89, 212); */
+    max-width: 1200px;
+    /* Device Screen Size */
+    margin: auto;
+    /* Left and right Center */
+}
+
+/* Step4: row */
+.menuBodyone {
+    /* background-color:crimson; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Step5: column-1*/
+.menuBlockone {
+   /* background-color: chartreuse;*/
+
+
+
+}
+
+/* Step6: subColumn */
+.menuBoxone {
+    /* background-color:gold; */
+
+}
+
+.menuBoxone figure {}
+
+.menuBoxone figure img {
+width: auto;
+height: 54rem;
+}
+
+
+.menuBlocktwo {
+   /* background-color: rgb(52, 161, 154);*/
+    
+
+}
+
+
+.menuBox {
+    /*background-color:rgb(255, 64, 0);*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+/* background-color:gold; */
+
+/* Step7:contentContainer */
+.menuBox h2 {
+    font-family: var(--ffSecondary);
+    color: var(--darkColor);
+    font-weight: 900;
+line-height: 1.2;
+    font-size: 4.5rem;
+
+}
+
+.menuBox p {
+ font-family:var(--ffPrimary);
+    font-size: 1.6rem;
+    margin: 2rem 0rem;
+}
+
+.menuBox button {
+ font-family:var(--ffPrimary);
+    font-size:2rem;
+}
+/* Our Menu code */
+
+/* Facility code */
+/* Facility code */
+
+/* Popular code */
+/* Popular code */
+
+/* Gallery code */
+/* Gallery code */
+
+/* Team code */
+/* Team code */
+/* :::MAIN Code Ends here::: */
+
+/* :::FOOTER Code Starts here::: */
+/* Contact code */
+/* Contact code */
+
+/* Contact Icons code */
+/* Contact Icons code */
+/* :::FOOTER Code Ends here::: */
+
