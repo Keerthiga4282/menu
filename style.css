@@ -163,8 +163,8 @@ button:hover {
 .menuBoxone figure {}
 
 .menuBoxone figure img {
-width: auto;
-height: 54rem;
+width: 100%;
+aspect-ratio: 1/1;
 }
 
 
